@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Felix | Calm Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loading Animation -->
+  <div id="loading">
+    <div class="calm-loader"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <span class="calm-logo">F</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#download-cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero">
+    <h2>Creating calm and thoughtful digital experiences.</h2>
+    <p>I’m Felix, a beginner developer building with intention and clarity.</p>
+    <a href="#projects">Explore My Work</a>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a beginner developer based in Helsinki, learning to build clean and peaceful digital experiences.
+      I enjoy creating simple interfaces that feel intuitive and calm. My goal is to grow into a developer
+      who builds tools that make people feel at ease.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git</li>
+      <li>VS Code</li>
+      <li>Figma</li>
+    </ul>
+    <p>Currently learning: React</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <article class="project">
+      <h3>Weather App</h3>
+      <p>A calm interface showing weather data with soft colors and simple layout.</p>
+      <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+    </article>
+
+    <article class="project">
+      <h3>Task Organizer</h3>
+      <p>A minimalist task manager designed to reduce stress and keep things clear.</p>
+      <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+    </article>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <h2>Project Gallery</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="assets/images/project1.jpg" alt="Project 1">
+        <p>Weather App — Calm UI</p>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/images/project2.jpg" alt="Project 2">
+        <p>Task Organizer — Minimal Flow</p>
+      </div>
+      <div class="gallery-item">
+        <img src="assets/images/project3.jpg" alt="Project 3">
+        <p>Landing Page — Soft Layout</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog -->
+  <section id="blog">
+    <h2>Blog</h2>
+
+    <article class="blog-post">
+      <h3>Designing with Calm</h3>
+      <p>Why calm interfaces matter and how they help users feel at ease.</p>
+      <a href="#">Read More</a>
+    </article>
+
+    <article class="blog-post">
+      <h3>My Journey as a Beginner</h3>
+      <p>How I started coding and why I chose a peaceful design style.</p>
+      <a href="#">Read More</a>
+    </article>
+  </section>
+
+  <!-- Download CV -->
+  <section id="download-cv">
+    <h2>Download My CV</h2>
+    <p>A calm, simple CV that reflects my design philosophy.</p>
+    <a class="cv-button" href="assets/cv/Felix-CV.pdf" download>Download CV</a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:felix@example.com">felix@example.com</a></p>
+    <p>GitHub: <a href="#">github.com/felix</a></p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/felix</a></p>
+  </section>
+
+  <!-- Modal -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content" id="modal-content">
+      <span id="modal-close">&times;</span>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-icons">
+      <a href="#"><img src="assets/icons/github-icon.svg" alt="GitHub"></a>
+      <a href="#"><img src="assets/icons/linkedin-icon.svg" alt="LinkedIn"></a>
+      <a href="#"><img src="assets/icons/email-icon.svg" alt="Email"></a>
+    </div>
+    <p>© 2026 Felix — Crafted with calm.</p>
+  </footer>
+
+  <!-- Theme Toggle -->
+  <button id="theme-toggle">Calm Mode</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
